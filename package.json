@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "start": "tsx src/index.ts",
+    "web": "tsx src/index.ts --web",
     "build": "tsc && cp src/web/dashboard.html dist/web/dashboard.html"
   },
   "dependencies": {
